@@ -210,7 +210,7 @@ def main(
     num_points: int = 800,
     save_imgs: bool = True,
     img_path: Optional[Path] = f'./picture/{pic_name}.png',
-    iterations: int = 4200,
+    iterations: int = 1200,
     lr: float = 0.01,
 ) -> None:
     global pic_name
