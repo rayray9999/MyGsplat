@@ -46,5 +46,21 @@ And run examples/sample.py to do superresolution.
 Remember to change the npz file in sample.py....
 
 
+## Development and Contribution
+
+This repository was born from the curiosity of people on the Nerfstudio team trying to understand a new rendering technique. This effort was led by Vickie Ye, who wrote the CUDA backend library, and Matias Turkulainen, who wrote the python bindings, library, and documentation. Thank you to Zhuoyang Pan for extensive testing and help on the Python bindings, Ruilong Li for packaging and deployment, and Matt Tancik and Justin Kerr for inspiring Vickie to do this. This library was developed under the guidance of Angjoo Kanazawa at Berkeley. If you find this library useful in your projects or papers, please consider citing this repository:
+```
+@software{Ye_gsplat,
+author = {Ye, Vickie and Turkulainen, Matias, and the Nerfstudio team},
+title = {{gsplat}},
+url = {https://github.com/nerfstudio-project/gsplat}
+}
+```
+
+
+We will soon release the mathematical supplement for the library, which we will post when it is out.
+
+
+We welcome contributions of any kind and are open to feedback, bug-reports, and improvements to help expand the capabilities of this software. Please check [docs/DEV.md](docs/DEV.md) for more info about development.
 
 
