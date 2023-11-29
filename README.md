@@ -39,4 +39,12 @@ pip install -r examples/requirements.txt
 python examples/new_train.py
 ```
 
+## Use saved parameter
+
+You can use the npz file saved in parameter.
+And run examples/sample.py to do superresolution.
+Remember to change the npz file in sample.py....
+
+
+
 
